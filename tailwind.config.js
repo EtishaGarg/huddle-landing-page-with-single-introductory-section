@@ -12,8 +12,8 @@ module.exports = {
         'lg': '1440px',
       },
       backgroundImage: {
-        'desktop-background': "url('/public/images/bg-desktop.svg')",
-        'mobile-background': "url('/public/images/bg-mobile.svg')",
+        'desktop-background': "url('/public/static/bg-desktop.svg')",
+        'mobile-background': "url('/public/static/bg-mobile.svg')",
       }
     },
   },
