@@ -631,6 +631,18 @@ h1,h2,h3 {
   background-image: url('/public/static/bg-mobile.svg');
 }
 
+.bg-\[url\(\'\.\/static\/bg-mobile\.svg\'\)\]{
+  background-image: url('./static/bg-mobile.svg');
+}
+
+.bg-\[url\(\'\/static\/bg-mobile\.svg\'\)\]{
+  background-image: url('/static/bg-mobile.svg');
+}
+
+.bg-\[url\(\'static\/bg-mobile\.svg\'\)\]{
+  background-image: url('static/bg-mobile.svg');
+}
+
 .bg-contain{
   background-size: contain;
 }
@@ -742,6 +754,18 @@ h1,h2,h3 {
 
   .lg\:bg-desktop-background{
     background-image: url('/public/static/bg-desktop.svg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/static\/bg-desktop\.svg\'\)\]{
+    background-image: url('./static/bg-desktop.svg');
+  }
+
+  .lg\:bg-\[url\(\'\/static\/bg-desktop\.svg\'\)\]{
+    background-image: url('/static/bg-desktop.svg');
+  }
+
+  .lg\:bg-\[url\(\'static\/bg-desktop\.svg\'\)\]{
+    background-image: url('static/bg-desktop.svg');
   }
 
   .lg\:bg-cover{
